@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_explore"
+        android:icon="@drawable/lupa"
+        android:title="@string/places_explore_text" />
+
+    <item
+        android:id="@+id/navigation_my_favourites"
+        android:icon="@drawable/like"
+        android:title="@string/favouties" />
+
+    <item
+        android:id="@+id/navigation_my_reservations"
+        android:icon="@drawable/calen"
+        android:title="@string/reservation_text" />
+
+    <item
+        android:id="@+id/navigation_my_profile"
+        android:icon="@drawable/usuario"
+        android:title="@string/profile_text" />
+
+
+</menu>

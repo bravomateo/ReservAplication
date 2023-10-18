@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_my_favourites">
+
+
+    <fragment
+        android:id="@+id/navigation_my_favourites"
+        android:name="com.example.reservapp.MyFavouritesFragment"
+        android:label="@string/my_favouties"
+        tools:layout="@layout/fragment_my_favourites" />
+    <fragment
+        android:id="@+id/navigation_my_reservations"
+        android:name="com.example.reservapp.MyReservationsFragment"
+        android:label="@string/my_reservation_text"
+        tools:layout="@layout/fragment_my_reservations" />
+    <fragment
+        android:id="@+id/navigation_my_profile"
+        android:name="com.example.reservapp.MyProfileFragment"
+        android:label="@string/my_profile_text"
+        tools:layout="@layout/fragment_my_profile" />
+    <activity
+        android:id="@+id/navigation_explore"
+        android:name="com.example.reservapp.TabbedActivity"
+        android:label="@string/Explore_text"
+        tools:layout="@layout/activity_tabbed" />
+
+
+</navigation>

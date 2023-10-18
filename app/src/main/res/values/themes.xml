@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ReservApp" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/LightSkyBlue</item>
+        <item name="colorPrimaryVariant">@color/LightSkyBlue</item>
+        <item name="colorOnPrimary">@color/LightSkyBlue</item>
+        <item name="android:navigationBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.ReservApp" parent="Base.Theme.ReservApp" />
+
+    <style name="Theme.ReservApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ReservApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+    <style name="Theme.ReservApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.ReservApp.NoActionBar">
+        <item name="android:windowBackground">@drawable/splas_screen</item>
+    </style>
+</resources>
