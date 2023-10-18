@@ -16,7 +16,6 @@ class WelcomeAppActivity : AppCompatActivity() {
         welcomeapbBinding = ActivityWelcomeAppBinding.inflate(layoutInflater)
         val view = welcomeapbBinding.root
         setContentView(view)
-
         welcomeapbBinding.mainBeginButton.setOnClickListener{
             val intent = Intent(this, SelectProfileActivity::class.java)
             startActivity(intent)
@@ -24,3 +23,4 @@ class WelcomeAppActivity : AppCompatActivity() {
 
     }
 }
+
