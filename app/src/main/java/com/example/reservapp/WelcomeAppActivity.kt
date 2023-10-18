@@ -8,7 +8,6 @@ import com.example.reservapp.databinding.ActivityWelcomeAppBinding
 class WelcomeAppActivity : AppCompatActivity() {
 
     private lateinit var welcomeapbBinding: ActivityWelcomeAppBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         Thread.sleep(3000)
         setTheme(R.style.Theme_ReservApp_NoActionBar)
