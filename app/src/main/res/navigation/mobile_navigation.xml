@@ -3,14 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/navigation_my_favourites">
+    app:startDestination="@id/navigation_explore">
 
-
-    <fragment
-        android:id="@+id/navigation_my_favourites"
-        android:name="com.example.reservapp.MyFavouritesFragment"
-        android:label="@string/my_favouties"
-        tools:layout="@layout/fragment_my_favourites" />
     <fragment
         android:id="@+id/navigation_my_reservations"
         android:name="com.example.reservapp.MyReservationsFragment"

@@ -6,10 +6,6 @@
         android:icon="@drawable/lupa"
         android:title="@string/places_explore_text" />
 
-    <item
-        android:id="@+id/navigation_my_favourites"
-        android:icon="@drawable/like"
-        android:title="@string/favouties" />
 
     <item
         android:id="@+id/navigation_my_reservations"
