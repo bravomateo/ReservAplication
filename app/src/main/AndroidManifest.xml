@@ -12,72 +12,60 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReservApp"
         tools:targetApi="31">
+
         <activity
-            android:name=".HostRegisterActivity"
+            android:name=".register.HostRegisterActivity"
             android:theme="@style/Theme.ReservApp.NoActionBar"
             android:exported="false" >
         </activity>
 
         <activity
-            android:name=".HostLoginActivity"
+            android:name=".login.HostLoginActivity"
             android:theme="@style/Theme.ReservApp.NoActionBar"
             android:exported="false" >
         </activity>
-
-        <activity
-            android:name=".ui.main.TabbedMainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_tabbed_main"
-            android:theme="@style/Theme.ReservApp.NoActionBar">
-
-        </activity>
-
-        <activity
-            android:name=".TabbedHostActivity"
-            android:exported="true"
-            android:label="@string/title_activity_tabbed_host"
-            android:theme="@style/Theme.ReservApp.NoActionBar" />
 
         <activity
             android:name=".BottomNavigationActivity"
             android:exported="true"
-            android:theme="@style/Theme.ReservApp" />
+            android:theme="@style/Theme.ReservApp" >
+        </activity>
 
         <activity
-            android:name=".TabbedActivity"
+            android:name=".mainHost.MainActivityHost"
             android:exported="true"
-            android:label="@string/title_activity_tabbed"
-            android:theme="@style/Theme.ReservApp.NoActionBar" />
+            android:theme="@style/Theme.ReservApp">
+        </activity>
 
         <activity
-            android:name=".UserLogInActivity"
+            android:name=".login.UserLogInActivity"
             android:theme="@style/Theme.ReservApp.NoActionBar"
             android:exported="false" >
         </activity>
 
         <activity
-            android:name=".UserRegisterActivity"
+            android:name=".register.UserRegisterActivity"
             android:exported="false"
             android:theme="@style/Theme.ReservApp.NoActionBar" >
         </activity>
 
         <activity
-            android:name=".SelectProfileActivity"
+            android:name=".welcome.SelectProfileActivity"
             android:exported="false"
-            android:theme="@style/Theme.ReservApp.NoActionBar" />
-        <activity
-            android:name=".WelcomeAppActivity"
-            android:exported="true"
             android:theme="@style/Theme.ReservApp.NoActionBar" >
+        </activity>
+
+        <activity
+            android:name=".welcome.WelcomeAppActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ReservApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+
     </application>
 
 </manifest>

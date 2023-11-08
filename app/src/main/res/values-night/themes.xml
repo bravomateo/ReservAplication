@@ -17,7 +17,7 @@
     <style name="Theme.ReservApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark" />
     <style name="Theme.ReservApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="SplashTheme" parent="Theme.ReservApp">
+    <style name="SplashTheme" parent="Theme.ReservApp.NoActionBar">
         <item name="android:windowBackground">@drawable/splas_screen</item>
     </style>
 </resources>

@@ -6,7 +6,7 @@
     <string name="head_select_profile">Hola,\n¿Qué te gustaría hacer hoy?</string>
     <string name="go_user_button_text">Encuentra lugares de eventos</string>
     <string name="go_host_button_text">Publica tu propio espacio</string>
-    <string name="head_user_register">Empecemos</string>
+    <string name="head_user_register">Publica tu lugar</string>
     <string name="subhead_user_register">Sólo necesitamos una par \nde detalles para empezar</string>
     <string name="name_user">Nombre Completo</string>
     <string name="email_user">Correo Electrónico</string>
@@ -46,4 +46,16 @@
     <string name="discover_places">Descubir Lugar</string>
     <string name="subhead_host_registe">Solo necesitamos un par de detalles para \nque publiques tus lugares</string>
     <string name="head_login_host">Bienvenido Anfitrión</string>
+    <string name="title_activity_main_host">MainActivityHost</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Mi Perfil</string>
+    <string name="title_myplaces">Mis Lugares</string>
+    <string name="place_name">Nombre del lugar</string>
+    <string name="city">Ciudad del lugar</string>
+    <string name="price">Precio del lugar</string>
+    <string name="capacity">Capacidad del lugar</string>
+    <string name="button_new_place">Nuevo lugar</string>
+    <string name="title_new_place">Agregar Nuevo Lugar</string>
 </resources>

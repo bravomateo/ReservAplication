@@ -21,11 +21,11 @@
         android:name="com.example.reservapp.MyProfileFragment"
         android:label="@string/my_profile_text"
         tools:layout="@layout/fragment_my_profile" />
-    <activity
+    <fragment
         android:id="@+id/navigation_explore"
-        android:name="com.example.reservapp.TabbedActivity"
+        android:name="com.example.reservapp.explore.ExploreFragment"
         android:label="@string/Explore_text"
-        tools:layout="@layout/activity_tabbed" />
+        tools:layout="@layout/fragment_explore" />
 
 
 </navigation>

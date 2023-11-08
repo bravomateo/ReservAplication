@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_myplaces">
+
+    <fragment
+        android:id="@+id/navigation_myplaces"
+        android:name="com.example.reservapp.mainHost.ui.myplaces.MyPlacesFragment"
+        android:label="@string/title_myplaces"
+        tools:layout="@layout/fragment_myplaces" >
+        <action
+            android:id="@+id/action_navigation_myplaces_to_newPlaceFragment"
+            app:destination="@id/navigation_newmovie" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.reservapp.mainHost.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_profileHost"
+        android:name="com.example.reservapp.mainHost.ui.profileHost.profileHostFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile_host" />
+    <fragment
+        android:id="@+id/navigation_newmovie"
+        android:name="com.example.reservapp.mainHost.ui.newplace.NewPlaceFragment"
+        android:label="@string/title_new_place"
+        tools:layout="@layout/fragment_new_place" />
+</navigation>
